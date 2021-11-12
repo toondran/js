@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지역변수의 유효 범의</title>
+</head>
+<body>
+    
+<script>
+function oneUp(){
+    var x=1;
+    x++;
+    return x;
+}
+
+var num=oneUp();
+document.write("num="+num);
+
+num=oneUp();
+document.write("num="+num);
+
+</script>
+
+</body>
+</html>
